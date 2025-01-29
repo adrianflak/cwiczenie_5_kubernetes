@@ -1,0 +1,9 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: demo1-config
+  namespace: sample-app-namespace-1738149234117
+  labels:
+    app.kubernetes.io/name: demo1
+    kubernetes.azure.com/generator: devhub
+data:
